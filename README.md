@@ -1,2 +1,3 @@
 # dataviz
-Data Vizualization
+
+Some data visualuzation projects.
