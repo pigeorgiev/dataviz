@@ -2,6 +2,4 @@
 
 Some data visualuzation projects.
 
-</br>
-
-<a href="https://pigeorgiev.github.io/dataviz/bulgarianstadiums">Bulgarian Stadiums Maps</a>
+<a href="https://pigeorgiev.github.io/dataviz/bulgarianstadiums" target="_blank">Bulgarian Stadiums Map</a>
