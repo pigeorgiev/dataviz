@@ -69,6 +69,7 @@ p {
 
 #sluginfo {
   grid-area: f;
+  align-self: center;
 }
 
 #koala {
@@ -78,6 +79,7 @@ p {
 
 #koalainfo {
   grid-area: g;
+  align-self: center;
 }
 
 #biscuit {
@@ -87,6 +89,7 @@ p {
 
 #biscuitinfo {
   grid-area: h;
+  align-self: center;
 }
 
 #soul {
@@ -96,6 +99,7 @@ p {
 
 #soulinfo {
   grid-area: i;
+  align-self: center;
 }
 
 #geoduck {
@@ -105,6 +109,7 @@ p {
 
 #geoduckinfo {
   grid-area: j;
+  align-self: center;
 }
 
 
@@ -134,15 +139,15 @@ p {
       width: 90%;
       grid-template-columns: 1fr;
       grid-template-areas:
-          "a"
           "f"
-          "b"
+          "a"
           "g"
-          "c"
+          "b"
           "h"
-          "d"
+          "c"
           "i"
-          "e"
-          "j";
+          "d"
+          "j"
+          "e";
     }
 }
