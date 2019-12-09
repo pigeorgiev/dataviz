@@ -5,9 +5,9 @@
   }
 
 h1 {
-    font-family: serif;
+    font-family: Georgia;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-family: Georgia;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 
   }
@@ -24,14 +24,14 @@ h2 {
 #byline {
     font-family: Georgia;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
   }
 
 #subhead {
     font-weight: bold;
-    font-family: Georgia;
-    font-size: 25px;
+    font-family: "Georgia";
+    font-size: 22px;
 }
 
 p {
@@ -44,6 +44,69 @@ p {
 #cover  {
     width: 100%;
   }
+
+#weird {
+      width: 50%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+          "a f"
+          "b g"
+          "c h"
+          "d i"
+          "e j";
+    }
+
+.weirdmascot {
+  width: 40%;
+}
+
+#slug {
+  grid-area: a;
+  width: 90%;
+}
+
+#sluginfo {
+  grid-area: f;
+}
+
+#koala {
+  grid-area: b;
+  width: 90%;
+}
+
+#koalainfo {
+  grid-area: g;
+}
+
+#biscuit {
+  grid-area: c;
+  width: 90%;
+}
+
+#biscuitinfo {
+  grid-area: h;
+}
+
+#soul {
+  grid-area: d;
+  width: 90%;
+}
+
+#soulinfo {
+  grid-area: i;
+}
+
+#geoduck {
+  grid-area: e;
+  width: 90%;
+}
+
+#geoduckinfo {
+  grid-area: j;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -65,5 +128,21 @@ p {
 
     p {
       font-size: 16px;
+    }
+
+    #weird {
+      width: 90%;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+          "a"
+          "f"
+          "b"
+          "g"
+          "c"
+          "h"
+          "d"
+          "i"
+          "e"
+          "j";
     }
 }
