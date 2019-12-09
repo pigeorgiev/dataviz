@@ -1,0 +1,69 @@
+/*These are the basic styles for the page -- we'll add the Grid stuff to them*/
+#container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+h1 {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+h2 {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+
+  }
+
+#byline {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+  }
+
+#subhead {
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+  }
+
+#cover  {
+    width: 100%;
+  }
+
+@media screen and (max-width: 800px) {
+
+    #container {
+        width: 90%;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    #byline {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+}
